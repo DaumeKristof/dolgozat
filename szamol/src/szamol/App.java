@@ -17,7 +17,7 @@ public class App {
 		writer = new SzamolResultWriter("eredmenyek.txt");
 		SzamolFileReader file = new SzamolFileReader();
 		SzamolDataParser data = new SzamolDataParser();
-		operations = data.parse(file.read("szamok.txt"));
+		operations = data.parse(file.read("szamok2.txt"));
 
 	}
 	

@@ -37,4 +37,10 @@ public class Operation {
 		return result;
 	}
 
+	@Override
+	public String toString() {
+		return "Operation [op1=" + op1 + ", op2=" + op2 + ", op3=" + op3 + ", op4=" + op4 + ", result=" + result + "]";
+	}
+
+	
 }
